@@ -5,7 +5,7 @@
 # Documentação - Sprint 2
 
 <p align="center">
-      <img src="../img/nhdevlogo.png" alt="logo" width="200">
+      <img src="../../img/nhdevlogo.png" alt="logo" width="200">
       <h2 align="center"> NightHawks</h2>
 </p>
 
