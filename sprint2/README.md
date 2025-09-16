@@ -34,11 +34,8 @@
 |              Critério              | Descrição                                                                                          |
 | :--------------------------------: | -------------------------------------------------------------------------------------------------- |
 |        Contrato da API Definido        | A equipa sabe exatamente quais endpoints criar (ex: GET /api/membros, POST /api/membros), quais métodos usar e qual o formato esperado dos dados (JSON).|
-
 |  Modelo de Dados (Schema) Desenhado  | A estrutura da tabela no banco de dados está definida (ex: a tabela membros terá as colunas id, nome, foto_url, funcao, descricao, tipo_membro). |
-
 |  Requisitos Funcionais Claros  | A equipa entende a regra de negócio que o back-end precisa de executar (ex: "Ao listar os membros, eles devem ser ordenados alfabeticamente dentro de cada categoria"). |
-
 |            Dependências do Front-end Mapeadas            | Está claro quais informações o front-end (desenvolvido na Sprint 1) precisará consumir desta API. |
 
 
@@ -47,13 +44,9 @@
 |                 Critério                 | Descrição                                                                                                        |
 | :--------------------------------------: | ---------------------------------------------------------------------------------------------------------------- |
 |     Código foi Revisto     | Pelo menos um outro membro da equipa revisou o código do back-end. |
-
 | Endpoints Funcionais e Testados | Os endpoints da API foram implementados e testados (seja com testes automáticos ou ferramentas como Postman/Insomnia) para garantir que retornam os dados e os erros corretos. |
-
 |      Banco de Dados Implementado      | A estrutura da tabela foi criada no ambiente de desenvolvimento do banco de dados. |
-
 |       Lógica de Negócio Cumprida       | Todas as regras de negócio associadas à tarefa (ex: ordenação, filtros) foram implementadas. |
-
 |        Documentação da API Criada         | Os novos endpoints foram documentados para que a equipa de front-end saiba como usá-los na próxima fase. |
 
 ## 🏅 Sprint Burndown <a id="burndown"></a>
