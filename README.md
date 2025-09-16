@@ -49,12 +49,11 @@ trabalho.
 
 ## 📋 Backlog do Produto <a id="backlog"></a>
 --- ANALISAR QUAL SERÁ O MÉTODO DE USO DO BACKLOG, VIA LINK DENTRO DO GIT OU EXTERNO PELO EXCEL --
-| Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
-| :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
-|   1  |    Alta    | Como usuário, quero uma interface para inserir um prompt, para que eu possa enviá-lo às LLMs e obter suas respostas                                                                                            |            |       |                  |       |
-|   2  |    Alta    | Como usuário, eu quero enviar um prompt para dois modelos de IA simultaneamente, para que eu possa avaliar suas respostas posteriormente.                                                                      |            |       |               |       |
-|   3  |    Alta    | Como usuário, eu quero visualizar as respostas das LLMs de forma clara e acessível, para que eu possa analisá-las em critérios.                                                                                |            |      |                  |       |
-
+| Sprint | Ojetivos        | Link | Status |  
+|--------|-----------------|------|--------|
+| 1      | HTML/Figma      |      |        |
+| 2      | Backend         |      |        |
+| 3      | Backend/Ajustes |      |        |
 
 ---
 
