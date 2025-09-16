@@ -29,7 +29,7 @@
 > 
 > Video do Projeto:  [Youtube] 📽️
 
-## 🏅 Desafio <a id="desafio"></a>
+##  Desafio <a id="desafio"></a>
 
 A criação de um website para o Laboratório de Sensoriamento Remoto Agrícola do INPE (AgriRS
 Lab) tem como propósito principal centralizar as informações importantes do laboratório, ampliar
@@ -41,7 +41,7 @@ promoveria a divulgação do laboratório para quem quiser conhecer ou se aproxi
 trabalho.
 
 
-## 🏅 Solução <a id="solucao"></a>
+##  Solução <a id="solucao"></a>
 
 <n> ALTERAR OU PENSAR EM ALGO PARA SOLUÇÃO </n>
 
@@ -58,7 +58,7 @@ trabalho.
 
 ---
 
-## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
+## ‍ DoR - Definition of Ready <a id="dor"></a>
 
 * User Stories com **Critérios de Aceitação**
 * Subtarefas divididas **a partir das US**
@@ -67,7 +67,7 @@ trabalho.
 * Diagrama de **Rotas**
 * Banco de Dados **Vetorizado** do Cliente
 
-## 🏆 DoD - Definition of Done <a id="dod"></a>
+##  DoD - Definition of Done <a id="dod"></a>
 
 * Manual de Usuário
 * Manual da Aplicação
