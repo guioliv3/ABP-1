@@ -81,9 +81,9 @@ trabalho.
 
 | Sprint          |    Período    | Documentação                                     |
 | --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **SPRINT 1** | 10/03 - 30/03 | [Sprint 1 Docs](./docs/processo/sprints/sprint-1/README.md) |
-| 🔖 **SPRINT 2** | 07/04 - 27/04 | [Sprint 2 Docs](./docs/processo/sprints/sprint-2/README.md) |
-| 🔖 **SPRINT 3** | 05/05 - 25/05 | [Sprint 3 Docs](./docs/processo/sprints/sprint-3/README.md) |
+| 🔖 **SPRINT 1** | 10/03 - 30/03 | [Sprint 1 Docs](./docs/sprint1/readme.md) |
+| 🔖 **SPRINT 2** | 07/04 - 27/04 | [Sprint 2 Docs](./docs/sprint2/README.md) |
+| 🔖 **SPRINT 3** | 05/05 - 25/05 | [Sprint 3 Docs](docs/sprint3/README.md) |
 
 ## 💻 Tecnologias <a id="tecnologias"></a>
 
