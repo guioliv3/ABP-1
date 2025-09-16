@@ -11,7 +11,7 @@
 
 <p align="center">
   | <a href ="#desafio"> Desafio</a>  |
-  <a href ="#us"> User Stories</a>  |   
+  <a href ="#us"> Backlog</a>  |   
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
   <a href ="#equipe"> Equipe</a> |
