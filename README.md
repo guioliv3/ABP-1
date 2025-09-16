@@ -5,7 +5,7 @@
 
 
 <p align="center">
-      <img src="" alt="" width="">
+      <img src="img/nhdevlogo.png" alt="nighthawks" width="200px">
       <h2 align="center"> NightHawks</h2>
 </p>
 
