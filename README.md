@@ -15,7 +15,6 @@
   <a href ="#backlog"> Backlog do Produto</a>  |
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
-  <a href ="#sprint"> Cronograma de Sprints</a>  |
   <a href ="#tecnologias">Tecnologias</a> |
   <a href ="#manual">Manual de Instalação</a>  | 
   <a href ="#equipe"> Equipe</a> |
@@ -49,16 +48,16 @@ trabalho.
 
 ## 📋 Backlog do Produto <a id="backlog"></a>
 --- ANALISAR QUAL SERÁ O MÉTODO DE USO DO BACKLOG, VIA LINK DENTRO DO GIT OU EXTERNO PELO EXCEL --
-| Sprint | Ojetivos        | Link | Status |  
-|--------|-----------------|------|--------|
-| 1      | HTML/Figma      |      |        |
-| 2      | Backend         |      |        |
-| 3      | Backend/Ajustes |      |        |
+| Sprint | Ojetivos        | Documentação | Período| Status  | 
+|--------|-----------------|------|--------|---------- | 
+| 1      | HTML/Figma      | [Sprint 1 Docs](./docs/sprint1/readme.md)     |        |           | 
+| 2      | Backend         |  [Sprint 2 Docs](./docs/sprint2/README.md)     |        |           | 
+| 3      | Backend/Ajustes |  [Sprint 3 Docs](docs/sprint3/README.md)    |        |           | 
 
 ---
 
 ## ‍ DoR - Definition of Ready <a id="dor"></a>
-
+--- **AJUSTAR** ---
 * User Stories com **Critérios de Aceitação**
 * Subtarefas divididas **a partir das US**
 * Design no **Figma**
@@ -67,25 +66,17 @@ trabalho.
 * Banco de Dados **Vetorizado** do Cliente
 
 ##  DoD - Definition of Done <a id="dod"></a>
-
+--- **AJUSTAR** ---
 * Manual de Usuário
 * Manual da Aplicação
-* Documentação da API (Application Programming Interface)
+* Documentação da API
 * Código completo
 * Vídeos de cada etapa de entrega
 
 ---
 
-## 📅 Cronograma de Sprints <a id="sprint"></a>
-
-| Sprint          |    Período    | Documentação                                     |
-| --------------- | :-----------: | ------------------------------------------------ |
-| 🔖 **SPRINT 1** | 10/03 - 30/03 | [Sprint 1 Docs](./docs/sprint1/readme.md) |
-| 🔖 **SPRINT 2** | 07/04 - 27/04 | [Sprint 2 Docs](./docs/sprint2/README.md) |
-| 🔖 **SPRINT 3** | 05/05 - 25/05 | [Sprint 3 Docs](docs/sprint3/README.md) |
-
 ## 💻 Tecnologias <a id="tecnologias"></a>
-
+--- **AJUSTAR** ---
 <h4 align="center">
  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"></a>
@@ -108,7 +99,7 @@ trabalho.
 ---
 
 ### 1. Clonar o Repositório Principal
-
+--- **AJUSTAR** ---
 ```bash
 git clone --recurse-submodules https://github.com/BuzzTech-API/API_ADS_6SEMESTE_2025.1.git
 cd API_ADS_6SEMESTE_2025.1
