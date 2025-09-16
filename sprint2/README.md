@@ -1,30 +1,24 @@
-# API 6º Semestre ADS
+# APB 1º Semestre DSM
 
-# DomRock AI - Auxia
+# Desenvolvimento de um website para o laboratório de Sensoriamento Remoto Agrícola do INPE - AgriRS Lab
 
 # Documentação - Sprint 2
 
 <p align="center">
-      <img src="../../../img/logo-BuzzTech.png" alt="logo da Buzz Tech" width="200">
-      <h2 align="center"> Buzz Tech</h2>
+      <img src="../../../img/logo-BuzzTech.png" alt="logo" width="200">
+      <h2 align="center"> NightHawks</h2>
 </p>
 
 <p align="center">
-  | <a href ="#desafio"> Desafio</a>  |
-  <a href ="#us"> User Stories</a>  |   
+  <a href ="#us">Backlog</a>  |   
   <a href ="#dor">DoR</a>  |
   <a href ="#dod">DoD</a>  |
   <a href ="#burndown">Burndown</a>  | 
-  <a href ="#equipe"> Equipe</a> |
 </p>
 
-> Status da Sprint: Concluído ✅
+> Status da Sprint: Em espera
 
-## 🏅 Desafio <a id="desafio"></a>
-
-Implementar funcionalidades que aprimorem a experiência do usuário durante o processo de avaliação das respostas geradas por LLMs, garantindo maior confiabilidade, interatividade e controle nas decisões. Nesta sprint, será feita a integração da base vetorizada com as LLMs por meio da técnica de RAG (Retrieval-Augmented Generation), permitindo que as respostas sejam enriquecidas com informações relevantes e atualizadas. Além disso, serão implementadas melhorias no fluxo de avaliação, como alertas de inconsistência, mensagens de status e erro mais claras, e navegação mais flexível para revisão e correção de decisões.
-
-## 📋 User Stories <a id="us"></a>
+## 📋 Backlog <a id="us"></a>
 
 | Rank | Prioridade | User Story                                                                                                                                                                                                     | Story Points | Sprint | Requisito do Cliente | Status |
 | :--: | :--------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------: | :----: | :------------------: | :----: |
