@@ -104,7 +104,7 @@ Desenvolver a Home Page responsiva de um site institucional do INPE, incluindo c
       <td><a href="s"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
-      <td>lucas Cobra</td>
+      <td>Lucas Cobra</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/LucasCobraFatec"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
       <td><a href=""><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
