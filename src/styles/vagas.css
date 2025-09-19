@@ -1,3 +1,19 @@
 #vagas-titulo>h1 {
-    color: '#2F4F4F';
+    color: #2F4F4F;
+    padding-left: 18%;
+    margin-bottom: 0;
+}
+
+#vagas-titulo__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#vagas-titulo__info-nav{
+    width: 300px;
+}
+
+#vagas-titulo__info-nav>span{
+    margin-right: 5%;
 }
