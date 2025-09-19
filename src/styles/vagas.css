@@ -1,19 +1,56 @@
+/*Bloco Titulo*/
 #vagas-titulo>h1 {
     color: #2F4F4F;
-    padding-left: 18%;
+    margin-left: 18%;
     margin-bottom: 0;
+    font-size: 2.5vw;
 }
 
 #vagas-titulo__info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    align-items: end;
 }
+
+#vagas-titulo__info>p{
+    margin-bottom: 0;
+}
+
 #vagas-titulo__info-nav{
     width: 300px;
 }
 
 #vagas-titulo__info-nav>span{
     margin-right: 5%;
+}
+
+/*Bloco conteúdo*/
+#vagas-conteudo{
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.vagas-conteudo__bloco{
+    height: 100px;
+    margin-bottom: 1.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas-conteudo__bloco>p{
+    margin: 0;
+}
+
+.vagas-conteudo__bloco-titulo{
+    margin-bottom: 0.5rem;
+}
+
+.vagas-conteudo__bloco-titulo>a{
+    text-decoration: none;
+    color: black;
+}
+
+.vagas-conteudo__bloco-descricao{
+    margin-bottom: 0;
 }
