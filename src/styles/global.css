@@ -33,6 +33,7 @@
     -webkit-font-smoothing: antialiased;
 
     font-family: var(--font);
+    min-height: 100vh;
   }
   
   /* 6. Improve media defaults */
@@ -144,4 +145,16 @@
     height: 2px;
   }
 
-  
+  .footer{
+    background-color: #2F4F4F;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+}
+
+/* Footer básico */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
