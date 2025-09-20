@@ -15,8 +15,11 @@ flex: 4;
 .lf{
    border-color:#000000;
   box-sizing:border-box;
-  width:70%;  
+  width: 70%;  
   opacity: 50%;
+  margin-left: 15%;
+  
+  
 
 }
 .content  {
@@ -38,7 +41,7 @@ flex: 4;
      justify-content: center;
 }
 .img{
-    background-image: url(../src/assets/image/Inpelogo.png);
+    background-image: url(../../assets/image/Inpelogo.png);
    width: 100px;
    height: 100px ;
    background-size: contain;
@@ -48,4 +51,31 @@ flex: 4;
 }
 .sub{
     color: #2F4F4F;
+}
+
+.button {
+  color: #ffffff;
+  background-color:#2F4F4F;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  float:right;
+  
+  
+  cursor: pointer;
+  
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color:#2F4F4F;
+
+      
+
+}
+
+.buttons{
+    width: 85%;
+    
 }
