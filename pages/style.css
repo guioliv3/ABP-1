@@ -1,0 +1,51 @@
+.title {
+    color: #2F4F4F;
+    width: 80%;
+    align-items:baseline;
+    display:flex;
+    
+    flex-direction: column;
+    
+}
+
+.text  {
+flex: 4;
+
+}
+.lf{
+   border-color:#000000;
+  box-sizing:border-box;
+  width:70%;  
+  opacity: 50%;
+
+}
+.content  {
+    width: 60%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-left: 15%;
+    
+}
+ .title hr {
+  border-color:#000000;
+  box-sizing:border-box;
+  width:100%;
+
+}
+.main {
+    display: flex;
+     justify-content: center;
+}
+.img{
+    background-image: url(../src/assets/image/Inpelogo.png);
+   width: 100px;
+   height: 100px ;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   flex: 1;
+}
+.sub{
+    color: #2F4F4F;
+}
