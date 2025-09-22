@@ -1,4 +1,4 @@
-.title {
+.no-title {
     color: #2F4F4F;
     width: 80%;
     align-items:baseline;
@@ -8,11 +8,11 @@
     
 }
 
-.text  {
+.no-text  {
 flex: 4;
 
 }
-.lf{
+.no-lf{
    border-color:#000000;
   box-sizing:border-box;
   width: 70%;  
@@ -22,7 +22,7 @@ flex: 4;
   
 
 }
-.content  {
+.no-content  {
     width: 60%;
     align-items: center;
     display:flex;
@@ -30,17 +30,17 @@ flex: 4;
     margin-left: 15%;
     
 }
- .title hr {
+ .no-title hr {
   border-color:#000000;
   box-sizing:border-box;
   width:100%;
 
 }
-.main {
+.no-main {
     display: flex;
      justify-content: center;
 }
-.img{
+.no-img{
     background-image: url(../../assets/image/Inpelogo.png);
    width: 100px;
    height: 100px ;
@@ -49,11 +49,11 @@ flex: 4;
    background-repeat: no-repeat;
    flex: 1;
 }
-.sub{
+.no-sub{
     color: #2F4F4F;
 }
 
-.button {
+.no-button {
   color: #ffffff;
   background-color:#2F4F4F;
   border-radius: 25px;
@@ -68,14 +68,14 @@ flex: 4;
   transition: all 0.3s ease-in-out;
 }
 
-.button:hover {
+.no-button:hover {
   background-color:#2F4F4F;
 
       
 
 }
 
-.buttons{
+.no-buttons{
     width: 85%;
     
 }
