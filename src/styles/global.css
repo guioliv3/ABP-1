@@ -9,6 +9,8 @@
     --color-3: #000000;
     --color-4: #efecec;
     --color-5: #245C4D;
+    --color-6: #0574BB;
+
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -149,7 +151,7 @@
 
   .footer{
     background-color: #2F4F4F;
-    position: absolute;
+    position: fixed;
     bottom:0%;
     width: 100%;
     display: flex;
@@ -170,6 +172,8 @@ footer {
 
 .dev-team{
   text-align: left;
+  opacity: 0.5;
+  
 }
 
 .infos{
@@ -177,12 +181,12 @@ footer {
   width: 80%;
   justify-content: space-between;
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 .social-midia{
   display: flex;
   justify-content: space-between;
-  width: 5%;
+  width: 70px;
 }
 .footer hr{
   width: 80%;
@@ -194,8 +198,8 @@ footer {
 .footer-options{
   display: flex;
 justify-content: space-between;
-width: 30%;
-margin-bottom: 8px;
+width: 35%;
+margin-bottom: 0.5px;
 margin-top: 5px;
 }
 .footer-title{
@@ -205,7 +209,7 @@ margin-top: 5px;
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: #efecec;
+  background-color: var(--color-4);
   width: 220px;
   text-align: left;
   padding-left: 10px;
@@ -217,17 +221,18 @@ margin-top: 5px;
   flex-direction: column;
   justify-content: left;
   align-items: start;
+  width: 175px;
 }
 .dropdown-content a{
-  background-color: #efecec;
+  background-color: var(--color-4);
   padding-top: 5px;
   padding-bottom: 5px;
 }
 .box a:hover{
   background-color: var(--color-5);
-  color: var(--color-2);
+  color: var(--color-4);
 }
 .dropdown-content a:hover{
-  background-color: var(--color-4);
+  background-color: var(--color--4);
   color: var(--color-3);
 }
