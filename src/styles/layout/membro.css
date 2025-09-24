@@ -18,7 +18,7 @@
 }
 
 .mb-img img {
-      background-image:url();
+      background-image: url();
       height: 350px;
       width: 300px;
       display: block;
@@ -159,6 +159,10 @@ main {
 }
 
 @media (min-width: 1920px) {
+      .mb-cards {
+            margin-bottom: 10%;
+      }
+
       .mb-card {
             width: 450px;
             height: 600px;
@@ -166,7 +170,7 @@ main {
 
       .mb-img img {
             width: 450px;
-            height: 500px;
+            height: 600px;
       }
 
       .mb-bottom {
@@ -232,6 +236,42 @@ main {
       }
 }
 
+@media (max-width: 1100px) {
+
+      .mb-cards {
+            width: 90%;
+      }
+
+}
+
+@media (max-width: 1000px) {
+
+      .mb-cards {
+            width: 100%;
+      }
+
+      .mb-card {
+            width: 275px;
+            height: 475px;
+      }
+
+      .mb-img img {
+            width: 275px;
+            height: 375px;
+      }
+
+      .mb-overlay {
+            width: 275px;
+            height: 475px;
+      }
+
+      .mb-card-container {
+            width: 275px;
+            height: 475px;
+      }
+
+}
+
 @media (max-width: 900px) {
 
       .mb-cards {
@@ -239,6 +279,7 @@ main {
             justify-content: center;
             align-items: center;
             gap: 100px;
+            margin-bottom: 10%;
       }
 
       .mb-card {
@@ -313,4 +354,100 @@ main {
       .mb-title::after {
             height: 2px;
       }
+}
+
+@media (max-width: 590px) {
+
+      .mb-subtitle p {
+            font-size: 40px;
+      }
+
+}
+
+@media (max-width: 500px) {
+
+      .mb-card {
+            width: 300px;
+            height: 450px;
+      }
+
+      .mb-img img {
+            width: 300px;
+            height: 350px;
+      }
+
+      .mb-overlay {
+            width: 300px;
+            height: 450px;
+      }
+
+      .mb-content {
+            height: 325px;
+      }
+
+      .mb-bio p {
+            font-size: 16px;
+      }
+
+      button {
+            height: 45px;
+            letter-spacing: 3px;
+            font-size: 20px;
+      }
+
+      .mb-card-container {
+            width: 300px;
+            height: 450px;
+      }
+
+      .mb-title {
+            height: 58px;
+      }
+
+      .mb-title h1 {
+            font-size: 40px;
+      }
+
+      .mb-subtitle p {
+            font-size: 30px;
+      }
+
+      .mb-subtitle::after {
+            width: 20%;
+            height: 3px;
+      }
+
+      .mb-subtitle {
+            height: 50px;
+            margin: 20px 0px 40px;
+      }
+
+      .mb-name {
+            font-size: 30px;
+      }
+
+      .mb-desc {
+            font-size: 20px;
+      }
+}
+@media (max-width: 390px) {
+
+      .mb-subtitle p {
+            font-size: 28px;
+      }
+
+}
+@media (max-width: 360px) {
+
+      .mb-subtitle p {
+            font-size: 27px;
+      }
+
+}
+@media (max-width: 350px) {
+
+      .mb-subtitle p {
+            font-size: 26px;
+      }
+
 }
