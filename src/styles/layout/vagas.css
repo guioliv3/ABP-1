@@ -3,7 +3,7 @@
     margin-top: 5vh;
 }
 #va-title>h1 {
-    color: #2F4F4F;
+    color: var(--color-1);
     margin-left: 18%;
     margin-bottom: 0;
     font-size: 2.5vw;
@@ -27,6 +27,9 @@
 
 #va-title__info-nav>span{
     margin-right: 5%;
+}
+#va-title__info-nav>span>img{
+    color: #2F4F4F;
 }
 
 /*Bloco conteúdo*/
