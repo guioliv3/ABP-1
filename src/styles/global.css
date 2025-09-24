@@ -7,10 +7,6 @@
     --color-1: #2F4F4F;
     --color-2: #ffffff;
     --color-3: #000000;
-    --color-4: #efecec;
-    --color-5: #245C4D;
-    --color-6: #0574BB;
-
 }
 
 /* 1. Use a more-intuitive box-sizing model */
@@ -37,7 +33,6 @@
     -webkit-font-smoothing: antialiased;
 
     font-family: var(--font);
-    min-height: 100vh;
   }
   
   /* 6. Improve media defaults */
@@ -149,90 +144,4 @@
     height: 2px;
   }
 
-  .footer{
-    background-color: #2F4F4F;
-    position: fixed;
-    bottom:0%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-/* Footer básico */
-footer {
-  background-color: #f1f1f1;
-  padding: 0px;
-  text-align: center;
-  color: #ffffff;
-
-}
-
-.dev-team{
-  text-align: left;
-  opacity: 0.5;
   
-}
-
-.infos{
-  display: flex;
-  width: 80%;
-  justify-content: space-between;
-  margin-bottom: 15px;
-  margin-top: 0px;
-}
-.social-midia{
-  display: flex;
-  justify-content: space-between;
-  width: 70px;
-}
-.footer hr{
-  width: 80%;
-}
-.footer-options a{
-  text-decoration: none;
-  color: #ffffff;
-}
-.footer-options{
-  display: flex;
-justify-content: space-between;
-width: 35%;
-margin-bottom: 0.5px;
-margin-top: 5px;
-}
-.footer-title{
-  font-size: 20px;
-  margin-top: 15px;
-}
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: var(--color-4);
-  width: 220px;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.box:hover .dropdown-content{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: start;
-  width: 175px;
-}
-.dropdown-content a{
-  background-color: var(--color-4);
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.box a:hover{
-  background-color: var(--color-5);
-  color: var(--color-4);
-}
-.dropdown-content a:hover{
-  background-color: var(--color--4);
-  color: var(--color-3);
-}
