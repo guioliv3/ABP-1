@@ -18,6 +18,7 @@
 }
 
 .mb-img img {
+      background-image:url();
       height: 350px;
       width: 300px;
       display: block;
