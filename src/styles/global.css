@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
-<<<<<<< HEAD
-    --font: "PT Sans", sans-serif;
-}
-
-body{
-    font-family: var(--font);
-=======
  --font: "PT Sans", sans-serif;
 }
 
@@ -242,5 +235,4 @@ margin-top: 5px;
 .dropdown-content a:hover{
   background-color: var(--color--4);
   color: var(--color-3);
->>>>>>> main
 }

@@ -1,56 +1,59 @@
 /*Bloco Titulo*/
-#vagas-titulo>h1 {
+#va-title{
+    margin-top: 5vh;
+}
+#va-title>h1 {
     color: #2F4F4F;
     margin-left: 18%;
     margin-bottom: 0;
     font-size: 2.5vw;
 }
 
-#vagas-titulo__info{
+#va-title__info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: end;
 }
 
-#vagas-titulo__info>p{
+#va-title__info>p{
     margin-bottom: 0;
 }
 
-#vagas-titulo__info-nav{
+#va-title__info-nav{
     width: 300px;
+    display: flex;
 }
 
-#vagas-titulo__info-nav>span{
+#va-title__info-nav>span{
     margin-right: 5%;
 }
 
 /*Bloco conteúdo*/
-#vagas-conteudo{
+#va-content{
     margin-top: 5%;
     margin-left: 18%;
 }
-
-.vagas-conteudo__bloco{
+.va-content__block{
     height: 100px;
     margin-bottom: 1.5vw;
     display: flex;
     flex-direction: column;
 }
 
-.vagas-conteudo__bloco>p{
+.va-content__block>p{
     margin: 0;
 }
 
-.vagas-conteudo__bloco-titulo{
+.va-content__block-title{
     margin-bottom: 0.5rem;
 }
 
-.vagas-conteudo__bloco-titulo>a{
+.va-content__block-title>a{
     text-decoration: none;
     color: black;
 }
 
-.vagas-conteudo__bloco-descricao{
+.va-content__block-desc{
     margin-bottom: 0;
 }
