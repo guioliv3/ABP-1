@@ -22,7 +22,7 @@ display: flex;
 align-items: center;
 text-align: center;
 justify-content: center;
-gap: 40px;
+gap: 30px;
 width: 70%;
 margin-left: 15%;
 padding-top: 30px;
@@ -42,7 +42,7 @@ padding-top: 30px;
   background-image: url(../../assets/image/analise_impactos.png);
    width: 200px;
    height: 200px ;
-   margin-left: 10%;
+   margin-left: 25% ;
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -52,8 +52,8 @@ padding-top: 30px;
   background-image: url(../../assets/image/estima_analise.png);
    width: 200px;
    height: 200px ;
-   margin-left: 5%;
    background-size: contain;
+   margin-left: 20% ;
    background-position: center;
    background-repeat: no-repeat;
 
@@ -78,4 +78,30 @@ padding-top: 30px;
   width: 40px;
   height: 40px;
   cursor: pointer;
+  font-size: 20px
 }
+
+
+.btn-projeto{
+  display: flex;
+  background-position: center;
+  align-items: center;
+  background-color: var(--color-6);
+  border: none;
+  border-radius: 200px;
+  margin-left: 45%;
+  margin-top: 150px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+
+  }
+  .btn-name{
+    text-decoration: none;
+    margin: 25%;
+    font-size: 20px;
+    color: var(--color-2);
+  }
+
+  
+  
