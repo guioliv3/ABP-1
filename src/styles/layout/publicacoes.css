@@ -11,7 +11,7 @@ body {
 
 /* Container centralizado - para limitar largura da página */
 .container { 
-    max-width: 800px; 
+    max-width: 1000px; 
     margin: 0 auto; 
     padding: 20px; 
 }
@@ -25,6 +25,7 @@ body {
     border-top: 2px solid transparent;
     margin:18px 0 8px;
     padding-top: 6px;
+    justify-items: center;
 }
 #form-filters {
     display: flex;
@@ -56,6 +57,10 @@ body {
     gap: 28px;
     margin-top: 24px;
 }
+.pub-article{
+    width:fit-content;
+    
+}
 .pub-card{
     background: white;
     border: 1px solid #e6e6e6;
@@ -67,6 +72,7 @@ body {
     gap:10px;
     width: 300px;
     height:350px;
+    max-width: 100%;
 }
 .pub-cover {
     width:100%; 
@@ -78,7 +84,7 @@ body {
     font-size: 15px;
     color: #234;
     display: -webkit-box;
-    line-clamp: 3;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -106,8 +112,8 @@ body {
     margin-top: 12px;
     color:#0574BB
 }
-#line-pu{
-    width:800px;
+#pu-line{
+    width:1000px;
     height:1px;
     background-color:#333;
     margin: 10px auto 0;
@@ -115,3 +121,33 @@ body {
     margin-bottom: 1rem;
 }
 
+@media (max-width: 900px){
+    .container{
+        padding: 10px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .pubs-grid{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    #pu-line{
+        width: 100%;
+        max-width: 1000px;
+    }
+}
+@media (max-width: 500px) {
+    .container{
+        padding: 10px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .pubs-grid{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    #pu-line{
+        width: 100%;
+        max-width: 1000px;
+    }
+}

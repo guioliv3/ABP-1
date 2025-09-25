@@ -35,7 +35,7 @@ li::before{
     content:"-";
     color:black;
 }
-.line-so {
+.so-line {
     width:800px;
     height:1px;
     background-color:#333;
