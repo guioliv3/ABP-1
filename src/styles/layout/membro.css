@@ -44,6 +44,7 @@
 
 .mb-desc {
       font-size: 16px;
+      text-align: center;
 }
 
 .mb-overlay {
@@ -158,6 +159,10 @@ main {
       margin-bottom: 5%;
 }
 
+.mb-little {
+      font-size: 12px;
+}
+
 @media (min-width: 1920px) {
       .mb-cards {
             margin-bottom: 10%;
@@ -170,7 +175,7 @@ main {
 
       .mb-img img {
             width: 450px;
-            height: 600px;
+            height: 500px;
       }
 
       .mb-bottom {
@@ -192,8 +197,7 @@ main {
       }
 
       .mb-content {
-            height: 450px;
-            width: calc(100% - 70px);
+            height: 500px;
       }
 
       .mb-bio p {
@@ -234,220 +238,232 @@ main {
       .mb-title::after {
             height: 2px;
       }
-}
 
-@media (max-width: 1100px) {
-
-      .mb-cards {
-            width: 90%;
-      }
-
-}
-
-@media (max-width: 1000px) {
-
-      .mb-cards {
-            width: 100%;
-      }
-
-      .mb-card {
-            width: 275px;
-            height: 475px;
-      }
-
-      .mb-img img {
-            width: 275px;
-            height: 375px;
-      }
-
-      .mb-overlay {
-            width: 275px;
-            height: 475px;
-      }
-
-      .mb-card-container {
-            width: 275px;
-            height: 475px;
-      }
-
-}
-
-@media (max-width: 900px) {
-
-      .mb-cards {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 100px;
-            margin-bottom: 10%;
-      }
-
-      .mb-card {
-            width: 450px;
-            height: 675px;
-      }
-
-      .mb-img img {
-            width: 450px;
-            height: 575px;
-      }
-
-      .mb-bottom {
-            height: 100px;
-            gap: 10px;
-      }
-
-      .mb-name {
-            font-size: 35px;
-      }
-
-      .mb-desc {
-            font-size: 25px;
-      }
-
-      .mb-overlay {
-            width: 450px;
-            height: 675px;
-      }
-
-      .mb-content {
-            height: 675px;
-      }
-
-      .mb-bio p {
-            font-size: 23px;
-      }
-
-      button {
-            height: 55px;
-            letter-spacing: 4px;
-            font-size: 22px;
-      }
-
-      .mb-card-container {
-            width: 450px;
-            height: 675px;
-      }
-
-      .mb-title {
-            height: 70px;
-      }
-
-      .mb-title h1 {
-            font-size: 50px;
-      }
-
-      .mb-subtitle p {
-            font-size: 45px;
-      }
-
-      .mb-subtitle::after {
-            width: 20%;
-            height: 3px;
-      }
-
-      .mb-subtitle {
-            height: 70px;
-            margin: 20px 0px 40px;
-      }
-
-      .mb-title::after {
-            height: 2px;
-      }
-}
-
-@media (max-width: 590px) {
-
-      .mb-subtitle p {
-            font-size: 40px;
-      }
-
-}
-
-@media (max-width: 500px) {
-
-      .mb-card {
-            width: 300px;
-            height: 450px;
-      }
-
-      .mb-img img {
-            width: 300px;
-            height: 350px;
-      }
-
-      .mb-overlay {
-            width: 300px;
-            height: 450px;
-      }
-
-      .mb-content {
-            height: 325px;
-      }
-
-      .mb-bio p {
-            font-size: 16px;
-      }
-
-      button {
-            height: 45px;
-            letter-spacing: 3px;
-            font-size: 20px;
-      }
-
-      .mb-card-container {
-            width: 300px;
-            height: 450px;
-      }
-
-      .mb-title {
-            height: 58px;
-      }
-
-      .mb-title h1 {
-            font-size: 40px;
-      }
-
-      .mb-subtitle p {
-            font-size: 30px;
-      }
-
-      .mb-subtitle::after {
-            width: 20%;
-            height: 3px;
-      }
-
-      .mb-subtitle {
-            height: 50px;
-            margin: 20px 0px 40px;
-      }
-
-      .mb-name {
-            font-size: 30px;
-      }
-
-      .mb-desc {
+      .mb-little p{
             font-size: 20px;
       }
 }
-@media (max-width: 390px) {
+      @media (max-width: 1100px) {
 
-      .mb-subtitle p {
-            font-size: 28px;
+            .mb-cards {
+                  width: 90%;
+            }
+            .mb-desc{
+                  font-size: 21px;
+            }
       }
 
-}
-@media (max-width: 360px) {
+      @media (max-width: 1000px) {
 
-      .mb-subtitle p {
-            font-size: 27px;
+            .mb-cards {
+                  width: 100%;
+            }
+
+            .mb-card {
+                  width: 275px;
+                  height: 475px;
+            }
+
+            .mb-img img {
+                  width: 275px;
+                  height: 375px;
+            }
+
+            .mb-overlay {
+                  width: 275px;
+                  height: 475px;
+            }
+
+            .mb-card-container {
+                  width: 275px;
+                  height: 475px;
+            }
+
+            .mb-little{
+                  font-size: 13px;
+            }
+
       }
 
-}
-@media (max-width: 350px) {
+      @media (max-width: 900px) {
 
-      .mb-subtitle p {
-            font-size: 26px;
+            .mb-cards {
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 100px;
+                  margin-bottom: 10%;
+            }
+
+            .mb-card {
+                  width: 450px;
+                  height: 675px;
+            }
+
+            .mb-img img {
+                  width: 450px;
+                  height: 575px;
+            }
+
+            .mb-bottom {
+                  height: 100px;
+                  gap: 10px;
+            }
+
+            .mb-name {
+                  font-size: 35px;
+            }
+
+            .mb-desc {
+                  font-size: 25px;
+            }
+
+            .mb-overlay {
+                  width: 450px;
+                  height: 675px;
+            }
+
+            .mb-content {
+                  height: 675px;
+            }
+
+            .mb-bio p {
+                  font-size: 23px;
+            }
+
+            button {
+                  height: 55px;
+                  letter-spacing: 4px;
+                  font-size: 22px;
+            }
+
+            .mb-card-container {
+                  width: 450px;
+                  height: 675px;
+            }
+
+            .mb-title {
+                  height: 70px;
+            }
+
+            .mb-title h1 {
+                  font-size: 50px;
+            }
+
+            .mb-subtitle p {
+                  font-size: 45px;
+            }
+
+            .mb-subtitle::after {
+                  width: 20%;
+                  height: 3px;
+            }
+
+            .mb-subtitle {
+                  height: 70px;
+                  margin: 20px 0px 40px;
+            }
+
+            .mb-title::after {
+                  height: 2px;
+            }
       }
 
-}
+      @media (max-width: 590px) {
+
+            .mb-subtitle p {
+                  font-size: 40px;
+            }
+
+      }
+
+      @media (max-width: 500px) {
+
+            .mb-card {
+                  width: 300px;
+                  height: 450px;
+            }
+
+            .mb-img img {
+                  width: 300px;
+                  height: 350px;
+            }
+
+            .mb-overlay {
+                  width: 300px;
+                  height: 450px;
+            }
+
+            .mb-content {
+                  height: 325px;
+            }
+
+            .mb-bio p {
+                  font-size: 16px;
+            }
+
+            button {
+                  height: 45px;
+                  letter-spacing: 3px;
+                  font-size: 20px;
+            }
+
+            .mb-card-container {
+                  width: 300px;
+                  height: 450px;
+            }
+
+            .mb-title {
+                  height: 58px;
+            }
+
+            .mb-title h1 {
+                  font-size: 40px;
+            }
+
+            .mb-subtitle p {
+                  font-size: 30px;
+            }
+
+            .mb-subtitle::after {
+                  width: 20%;
+                  height: 3px;
+            }
+
+            .mb-subtitle {
+                  height: 50px;
+                  margin: 20px 0px 40px;
+            }
+
+            .mb-name {
+                  font-size: 30px;
+            }
+
+            .mb-desc {
+                  font-size: 20px;
+            }
+      }
+
+      @media (max-width: 390px) {
+
+            .mb-subtitle p {
+                  font-size: 28px;
+            }
+
+      }
+
+      @media (max-width: 360px) {
+
+            .mb-subtitle p {
+                  font-size: 27px;
+            }
+
+      }
+
+      @media (max-width: 350px) {
+
+            .mb-subtitle p {
+                  font-size: 26px;
+            }
+
+      }
