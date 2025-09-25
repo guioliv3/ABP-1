@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/styles/global.css">
-    <link rel="stylesheet" href="../src/styles/layout/vagas.css">
-    <title>ABP 1</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/styles/teste.css">
 </head>
 <body>
     <header>
@@ -14,9 +13,7 @@
             <div class="options">
                 <div class="selected-box">
                     <a href=""><b>Home</b></a>
-                    <div class="center">
-                        <hr>
-                    </div>
+                    <div class="center"><hr></div>
                 </div>
                 <hr>
                 <div class="box">
@@ -26,11 +23,11 @@
                     </div>
                     <div class="dropdown-content">
                         <a href="">Sobre</a>
-                        
+
                         <a href="">Membros</a>
-                        
+
                         <a href="">Projetos</a>
-                        
+
                         <a href="">Área de atuação</a>
                     </div>
                 </div>
@@ -38,82 +35,79 @@
                 <div class="box">
                     <a href=""><b>Vagas</b></a>
                     <div class="center">
-                        
+
                     </div>
                 </div>
                 <hr>
                 <div class="box">
                     <a href=""><b>Publicações</b></a>
                     <div class="center">
-                
+
                     </div>
                     <div class="dropdown-content">
                         <a href="">Feed</a>
-                        
+
                         <a href="">Notícias</a>
                     </div>
                 </div>
-
                 <hr>
                 <div class="box">
                     <a href=""><b>Contato</b></a>
-                    <div class="center">
-                        <hr>
-                    </div>
+                    <div class="center"><hr></div>
                 </div>
-            </div>
+            </div>    
         </div>
     </header>
 
-    <!--colar o código da página-->
-    <main>
-        <div id="va-title">
-            <h1>Processo de seleção</h1>
-            <div id="va-title__info">
-                <p>Última atualização em <em>data a definir</em></p>
-                <div id="va-title__info-nav">
-                    <span>Compartilhe: </span>
-                    <span><img src="../src/assets/image/facebook-icon.png" alt="facebook icon"></span>
-                    <span><img src="../src/assets/image/instagram-icon.png" alt="instagram icon"></span>
-                    <span><img src="../src/assets/image/linkedin-icon.png" alt="linkedin icon"></span>
-                </div>
-            </div>
-            <hr>
-        </div>
-        <div id="va-content">
-            <ol>
-                <li>
-                    <h2>OBJETIVO DA VAGA</h2>
-                    <p>blablablabla</p>
+    <div class="responsive-menu">
+        <div class="logo"></div>
+        <div class="space"></div>
+        <!-- Checkbox invisível para controlar o menu -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Ícone hambúrguer -->
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- Menu Dropdown -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <hr>
+
+                <li class="dropdown">
+                    <input type="checkbox" id="AgriRSLab-menu" class="dropdown-toggle">
+                    <label for="AgriRSLab-menu" class="menu-AgriRSLab">AgriRSLab <div class="icon-arrow"><img src="../src/assets/svg/caret-down-solid-full.svg" alt=""></div></label>
+
+                    <div class="mbl-dropdown-content">
+                        <a href="#">Sobre</a>
+                        <a href="#">Membros</a>
+                        <a href="#">Projetos</a>
+                        <a href="#">Área de atuação</a>
+                    </div>
                 </li>
-                <li>
-                    <h2>REQUISITOS</h2>
-                    <ul>
-                        <li>Requisito 1</li>
-                        <li>Requisito 2</li>
-                        <li>Requisito 3</li>
-                    </ul>
+
+                <hr>
+                <li><a href="#">Vagas</a></li>
+                <hr>
+                <li class="dropdown">
+                    <input type="checkbox" id="Publicacoes-menu" class="dropdown-toggle">
+                    <label for="Publicacoes-menu" class="menu-AgriRSLab">Publicações <div class="icon-arrow"><img src="../src/assets/svg/caret-down-solid-full.svg" alt=""></div></label>
+
+                    <div class="mbl-dropdown-content">
+                        <a href="#">Feed</a>
+                        <a href="#">Notícias</a>
+                    </div>
                 </li>
-                <li>
-                    <h2>RESUMO DO PLANO DE TRABALHO</h2>
-                    <p>blablablablabl</p>
-                </li>
-                <li>
-                    <h2>ATIVIDADES DO PLANO DE TRABALHO</h2>
-                    <ul>
-                        <li>Descrição detalhada da atividade a ser executada</li>
-                        <li>Descrição detalhada da atividade a ser executada</li>
-                        <li>Descrição detalhada da atividade a ser executada</li>
-                        <li>Descrição detalhada da atividade a ser executada</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>PROCESSO DE SELEÇÃO</h2>
-                    <p>Os interessados deverão enviar, por email, o <em>currículo</em> para o endereço de email da <a href="">AgriRSLab.</a></p>
-                </li>
-            </ol>
-        </div>
-    </main>
+                <hr>
+                <li><a href="#">Contato</a></li>
+
+            </ul>
+        </nav>
+    </div>
 
     <footer>
         <div class="footer">
