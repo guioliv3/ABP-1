@@ -12,14 +12,14 @@ body {
   padding: 1rem;
 }
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 2rem;
 }
 
 .ho-carrosel{
     margin: 0 auto;
-    width: 800px;
+    width: 1000px;
     height: 400px;
     overflow: hidden;
 }
@@ -40,7 +40,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel1.webp");
    background-size: cover;
    background-repeat: no-repeat;
-   width: 800px;
+   width: 1000px;
    position: relative;
 }
 
@@ -48,7 +48,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel2.webp");
    background-size: cover;
    background-repeat: no-repeat;
-   width: 800px;
+   width: 1000px;
    position: relative;
 }
 
@@ -56,7 +56,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel3.webp");
    background-size: cover;
    background-repeat: no-repeat;
-  width: 800px;
+  width: 1000px;
    position: relative;
 }
 
@@ -64,13 +64,13 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel4.webp");
    background-size: cover;
    background-repeat: no-repeat;
-  width: 800px;
+  width: 1000px;
    position: relative;
 }
 
 .ho-manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 1000px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -128,7 +128,7 @@ main {
 
 .ho-navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 1000px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
@@ -283,6 +283,7 @@ h4{
 .ho-faixaazul{
     background-color: #0574BB;
     display: flex;
+    justify-content: center;
 
     
 }
