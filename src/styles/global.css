@@ -211,6 +211,8 @@ margin-top: 5px;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: 3;
+
 }
 .box:hover .dropdown-content{
   display: flex;
@@ -218,10 +220,18 @@ margin-top: 5px;
   justify-content: left;
   align-items: start;
 }
+.selected-box:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  margin-top: -12px;
+}
 .dropdown-content a{
   background-color: var(--color-4);
   padding-top: 5px;
   padding-bottom: 5px;
+  color: var(--color-3);
 }
 .box a:hover{
   background-color: var(--color-5);
@@ -264,7 +274,7 @@ margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 4;
   }
 
   .menu-icon span {
@@ -278,6 +288,7 @@ margin-top: 5px;
     position: absolute;
     width: 100%;
     background-color: var(--color-5);
+    z-index: 3;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
@@ -290,6 +301,7 @@ margin-top: 5px;
   #menu-toggle:checked ~ .menu-icon span {
     background-color: var(--color-2);
     opacity: 0;
+    
   }
 
   #menu-toggle:checked ~ .menu-icon{
@@ -378,6 +390,7 @@ margin-top: 5px;
   .mbl-dropdown-content{
     display: none;
     background-color: var(--color-5);
+    z-index: 3;
     width: 220px;
     text-align: left;
     padding-left: 10px;
@@ -398,7 +411,7 @@ margin-top: 5px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 2;
+    z-index: 4;
     margin-top: 10px;
     margin-left: 20px;
   }
