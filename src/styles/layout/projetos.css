@@ -1,0 +1,21 @@
+hr {
+    width:70%;
+    height:0%;
+    margin: 10px auto;
+}
+
+.atu-title{
+  padding-top: 20px;
+}
+
+#atu-text {
+    color: #2F4F4F;
+    width: 60%;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    margin: 0%
+}
+     
+
+
