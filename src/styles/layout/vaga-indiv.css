@@ -1,0 +1,15 @@
+.vai-content-block{
+    margin-bottom: 3%;
+}
+.vai-content-title{
+    font-weight:600;
+}
+
+#vai-content-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0574BB;
+    border-radius: 20px;
+    border-style: none;
+    padding: 7px;
+}
