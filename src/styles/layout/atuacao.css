@@ -16,18 +16,21 @@ hr {
     justify-content: center;
     margin: 0%
 }
-
-.atu-images{
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-gap: 30px;
-width: 70%;
-margin-left: 15%;
-padding-top: 30px;
-
+.atu-images {
+  display: flex;
+  justify-content: center;    /* centraliza horizontalmente */
+  gap: 30px;                  
+  text-align: center;
 }
+
+.atu-images  div {
+  display: flex;
+  flex-direction: column;      /* empilha a imagem, título e checkbox */
+  align-items: center;         /* centraliza horizontalmente */
+  width: 220px;                
+}
+
+
 .atu-img1{
   background-image: url(../../assets/image/monit_mapeamento.png);
    width: 200px;
@@ -42,7 +45,7 @@ padding-top: 30px;
   background-image: url(../../assets/image/analise_impactos.png);
    width: 200px;
    height: 200px ;
-   margin-left: 25% ;
+   margin-left: 10% ;
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
@@ -53,11 +56,9 @@ padding-top: 30px;
    width: 200px;
    height: 200px ;
    background-size: contain;
-   margin-left: 20% ;
+   margin-left: 5% ;
    background-position: center;
    background-repeat: no-repeat;
-
-
 }
 .atu-img4{
   background-image: url(../../assets/image/feno.png);
@@ -66,39 +67,85 @@ padding-top: 30px;
    background-size: contain;
    background-position: center;
    background-repeat: no-repeat;
-
+   margin-top: 5%;
 }
 
-.btn{
-  color: var(--color-2);
-  background-color: var(--color-6);
-  border: none;
-  border-radius: 200px;
-  margin-top: 30px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  font-size: 20px
-}
-
-
-.btn-projeto{
-  display: flex;
-  background-position: center;
-  align-items: center;
-  background-color: var(--color-6);
-  border: none;
-  border-radius: 200px;
-  margin-left: 45%;
-  margin-top: 150px;
-  width: 150px;
-  height: 50px;
-  text-align: center;
-
-  }
+div #fenologia{
+  margin-top: 5%;
+} 
+ 
   .btn-name{
     text-decoration: none;
     margin: 25%;
     font-size: 20px;
     color: var(--color-2);
   }
+
+
+  .hidden {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.box-content:checked ~ .hidden {
+opacity: 1;
+max-height: 500px;
+padding: 10px;
+background-color: #007bff;
+color: var(--color-4);  
+border-radius: 12px;
+padding: 12px;
+opacity: 1;
+margin-top: 10px;
+text-align:start;
+
+}
+
+
+.box-content {
+  appearance: none;  
+  width: 40px;        
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative; /* permite usar ::before */
+   margin-bottom: 10px;
+  
+}
+
+/* Adiciona o "+" */
+.box-content::before {
+  content: "+";
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-content:checked::before {
+  content: "-";
+}
+
+.btn-projeto{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 45%;
+border: none;
+background-color: #007bff;
+margin: 20px auto;          
+padding: 12px 30px; 
+border-radius: 50px;        
+width: 100px;
+height: 40px;
+}
+
