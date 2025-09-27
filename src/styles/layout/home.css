@@ -12,14 +12,13 @@ body {
   padding: 1rem;
 }
 main {
-    max-width: 800px;
-    margin: auto;
-    padding: 2rem;
-}
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; }
 
 .ho-carrosel{
     margin: 0 auto;
-    width: 800px;
+    width: 1000px;
     height: 400px;
     overflow: hidden;
 }
@@ -40,7 +39,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel1.webp");
    background-size: cover;
    background-repeat: no-repeat;
-   width: 800px;
+   width: 1000px;
    position: relative;
 }
 
@@ -48,7 +47,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel2.webp");
    background-size: cover;
    background-repeat: no-repeat;
-   width: 800px;
+   width:1000px;
    position: relative;
 }
 
@@ -56,7 +55,7 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel3.webp");
    background-size: cover;
    background-repeat: no-repeat;
-  width: 800px;
+  width: 1000px;
    position: relative;
 }
 
@@ -64,13 +63,13 @@ main {
    background-image: url("../../assets/image/pc_home_carrosel4.webp");
    background-size: cover;
    background-repeat: no-repeat;
-  width: 800px;
+  width:1000px;
    position: relative;
 }
 
 .ho-manual-navigation{
     position: absolute;
-    width: 800px;
+    width:1000px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -128,7 +127,7 @@ main {
 
 .ho-navigation-auto{
     position: absolute;
-    width: 800px;
+    width: 1000px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
@@ -191,8 +190,13 @@ h4{
 .ho-cards{
     display: flex;
     justify-content: center;
+    
   }
 
+  .ho-imgtitulo{
+    flex: 1;
+    align-items: center
+  }
 
 
 .ho-cxazul{
@@ -283,6 +287,7 @@ h4{
 .ho-faixaazul{
     background-color: #0574BB;
     display: flex;
+    justify-content: center;
 
     
 }
@@ -360,5 +365,33 @@ h4{
    background-position: center;
    background-repeat: no-repeat;
    border-radius: 50%;
+
+}
+
+@media (max-width: 800px) {
+    .main, .ho-carrosel, .ho-carrosel-img1, .ho-carrosel-img2, .ho-carrosel-img3, .ho-carrosel-img4, .ho-navigation-auto, .ho-manual-navigation  {
+        width: 800px;
+}
+
+}
+
+@media (max-width: 700px) {
+    .main, .ho-carrosel, .ho-carrosel-img1, .ho-carrosel-img2, .ho-carrosel-img3, .ho-carrosel-img4, .ho-navigation-auto, .ho-manual-navigation  {
+        width: 700px;
+}
+
+}
+
+@media (max-width: 600px) {
+    .main, .ho-carrosel, .ho-carrosel-img1, .ho-carrosel-img2, .ho-carrosel-img3, .ho-carrosel-img4, .ho-navigation-auto, .ho-manual-navigation  {
+        width: 600px;
+}
+
+}
+
+@media (max-width: 500px) {
+    .main, .ho-carrosel, .ho-carrosel-img1, .ho-carrosel-img2, .ho-carrosel-img3, .ho-carrosel-img4, .ho-navigation-auto, .ho-manual-navigation  {
+        width: 500px;
+}
 
 }
